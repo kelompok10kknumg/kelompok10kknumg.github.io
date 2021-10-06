@@ -217,10 +217,10 @@
 
 		$("#preloader").animate({
 			'opacity': '0'
-		}, 600, function () {
+		}, 10, function () {
 			setTimeout(function () {
 				$("#preloader").css("visibility", "hidden").fadeOut();
-			}, 300);
+			}, 10);
 		});
 	});
 
